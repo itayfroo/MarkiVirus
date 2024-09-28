@@ -1,0 +1,33 @@
+
+                <!DOCTYPE html>
+                <html>
+                    <head>
+                        <title>Solve this marik</title>
+                    </head>
+                    <body>
+                        <h1>Marik, for starters i got this info:</h1>
+                        <p>IPv4 Address. . . . . . . . . . . : 192.168.1.235
+   </p>
+                        <p>IPv6 Address . . . . . : fe80::a8f6:8b9:5f4:6d40%14
+   </p>
+                        
+                        <h2>Lets raise the level:</h2>
+                        <p><span id = "text"> Something bad happens in <span id="countdowntimer">10 </span> Seconds</span></p>
+
+                        <script type="text/javascript">
+                                var timeleft = 10;
+                                var downloadTimer = setInterval(function()
+                                {
+                                timeleft--;
+                                document.getElementById("countdowntimer").textContent = timeleft;
+                                if(timeleft <= 0){
+                                    clearInterval(downloadTimer);
+                                    document.getElementById("text").textContent = "Something real bad just happend!(כדאי שתתקשר אלי)";}
+                                    
+                                },1000);
+                                
+                        </script>
+                        <iframe src="C:\Users\user\Desktop\MarikVirus\main.py"></iframe> 
+                    </body>
+                </html>
+                
