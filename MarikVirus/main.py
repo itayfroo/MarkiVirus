@@ -26,7 +26,7 @@ class YourNighmare():
             sub.run(["ipconfig"])
             
     def page(self):
-        path = r"C:\Users\user\Desktop\MarikVirus\main.py"
+        path = os.path.abspath(main.py)
         html = f"""
                 <!DOCTYPE html>
                 <html>
