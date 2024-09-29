@@ -26,7 +26,7 @@ class YourNighmare():
             sub.run(["ipconfig"])
             
     def page(self):
-        path = os.path.abspath(main.py)
+        path = os.path.abspath("main.py")
         html = f"""
                 <!DOCTYPE html>
                 <html>
